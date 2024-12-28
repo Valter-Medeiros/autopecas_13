@@ -1,2 +1,3 @@
 # autopecas_13
-Site que estou construindo no curso Senac-MG ainda com páginas sobre uma loja de pneus e rodas para carro
+Site que estou construindo no curso Senac-MG com páginas sobre uma loja de pneus e rodas para carro. Além disso outros produtos relacionados com pneus e rodas são apresentados. O site dá opção do usuário comprar produtos e consultar uma variedade de preços de cada produto.
+Aproveite essa oportunidade para turbinar seu carro...
