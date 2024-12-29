@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Gerais</title>
+    <link rel="stylesheet" type="text/css" href="_css/produtosgerais.css" />
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <div id="Interface">
+        <header id="cabecalho">
+
+            <img src="_imagens/carros-login3.png" id="icone">
+
+
+            <!--MENUS-->
+            <nav id="menus">
+                <ul>
+                    <li onmousemove="mudaFoto('_imagens/casa1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="index.html">Início</a></li>
+                    <li onmousemove="mudaFoto('_imagens/pneu_vazado1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="pneus.html">Pneus</a></li>
+                    <li onmousemove="mudaFoto('_imagens/roda_vazada1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')">
+                        <a href="rodas.html">Rodas</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/pecas_vazado1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="produtosgerais.html">Produtos
+                            Gerais</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/ajudasf1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="contato.html">Contato</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/promocao.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="comprar.html">Comprar</a></li>
+
+                </ul>
+
+                <div class="cadastro">
+                    <button class="usuario">
+                        <img src="./_imagens/boneco-login.png" onclick="abre()" />
+                    </button>
+                    <script>
+                        function abre() {
+                            window.location.href = 'cadastro.php';
+
+                        }
+
+                    </script>
+                </div>
+            </nav>
+
+        </header>
+        <section id="principal">
+            <article id="titulos">
+                <h1>Produtos Gerais</h1>
+                <p>São os acessórios fundamentais para manter os seus pneus e as suas rodas com aquele aspecto de sempre novinhos </p>
+                <!--audio-->
+                <div id="sommar">
+                    <audio id="musica" controls="controls">
+                        <source src="_media/blublu.aac" type="audio/mpeg" />
+                        Não foi possível carregar o áudio
+                    </audio>                    
+                    <img src="./_imagens/Carro.png" id="carro"/>                   
+                </div>
+
+                <h2>Friso de Rodas</h2>
+                <p>O friso para rodas é uma peça decorativa e protetiva que é instalada ao redor das rodas de um veículo. Feito geralmente de material plástico ou metálico, o friso tem como função melhorar o visual do carro, dando um acabamento mais sofisticado, e proteger a área da borda da roda contra riscos e danos. Disponível em diferentes cores e estilos, o friso é uma opção acessível para personalização e para preservar a estética das rodas ao longo do tempo.</p>
+                <figure id="racao">
+                    <img src="./_imagens/friso_rodas1.png" />
+                </figure>
+
+                <h2>Limpa Pneus</h2>
+                <p>O Prot Pneu Blue é um produto desenvolvido para o tratamento e conservação de pneus. Ele atua como um protetor e revitalizador, proporcionando uma camada de proteção contra fatores como raios UV, sujeira e desgaste, além de ajudar a manter a aparência original do pneu. Com a aplicação do Prot Pneu Blue, o pneu fica com um visual mais brilhante e renovado, e também melhora sua durabilidade, evitando o ressecamento e o envelhecimento precoce da borracha. Esse tipo de produto é bastante utilizado por motoristas que buscam uma manutenção simples, mas eficaz, para os pneus do veículo.</p>
+                <figure id="verme">
+                    <img src="./_imagens/limpa_pneus.png" />
+                </figure>
+
+                <h2>Polidor para Rodas</h2>
+                <p>O Wheel Cleaner é um produto especialmente desenvolvido para a limpeza e manutenção das rodas dos veículos. Sua fórmula potente é capaz de remover sujeiras difíceis, como poeira de freio, graxa, óleo e outros resíduos acumulados ao longo do tempo. Ao aplicar o Wheel Cleaner, ele age de forma eficaz, deixando as rodas limpas, brilhantes e livres de contaminantes, sem danificar o acabamento ou a superfície das mesmas. Ideal para quem busca praticidade e um visual impecável, o Wheel Cleaner é fácil de usar e proporciona uma proteção extra, mantendo as rodas em ótimo estado por mais tempo.</p>
+                <figure id="imuno">
+                    <img src="./_imagens/polidor_rodas.png" />
+                </figure>
+
+                <h2>Tampa para Cubo</h2>
+                <p>A tampa para cubo é um acessório desenvolvido para cobrir e proteger o cubo da roda do veículo, garantindo um acabamento mais estético e funcional. Feita geralmente de materiais resistentes, como plástico ou metal, a tampa para cubo ajuda a evitar o acúmulo de sujeira, poeira e água na região, o que pode causar corrosão e desgaste prematuro. Além disso, ela confere um visual mais clean e sofisticado às rodas, sendo uma excelente opção para quem deseja um toque de personalização e proteção adicional para o seu carro. Fácil de instalar, a tampa para cubo é um detalhe simples que faz toda a diferença na aparência e durabilidade das rodas.</p>
+                <figure id="bomba">
+                    <img src="./_imagens/tampa_cubo.png" />
+                </figure>
+
+                <h2>Chave e Macaco</h2>
+                <p>A chave de rodas e o macaco são ferramentas essenciais para qualquer motorista, oferecendo praticidade e segurança em situações de emergência, como a troca de pneus. A chave de rodas é utilizada para soltar ou apertar os parafusos das rodas, permitindo a remoção do pneu danificado. Já o macaco é responsável por levantar o veículo, permitindo acesso fácil às rodas para a troca. Ambos os itens são compactos, fáceis de armazenar no carro e fundamentais para garantir que você esteja preparado para resolver problemas com os pneus em qualquer lugar. Juntos, a chave de rodas e o macaco oferecem autonomia e segurança em imprevistos durante a condução.</p>
+                <figure id="enfeite">
+                    <img src="./_imagens/chave_macaco.png" />
+                </figure>
+
+                <h2>Renovador Pneu</h2>
+                <p>O Renovador de Pneu Wintex é um produto especialmente formulado para restaurar e proteger os pneus do seu veículo, devolvendo-lhes o brilho e a aparência de novos. Sua fórmula avançada limpa, revitaliza e cria uma camada protetora contra fatores como ressecamento, sujeira, raios UV e outros agentes externos que aceleram o desgaste dos pneus. Além de melhorar a estética, o renovador Wintex também ajuda a prolongar a vida útil da borracha, prevenindo rachaduras e desgastes prematuros. Fácil de aplicar, o Renovador de Pneu Wintex é ideal para quem busca praticidade e resultados duradouros, mantendo os pneus do seu carro com visual impecável e protegidos por mais tempo.</p>
+                <figure id="limpeza">
+                    <img src="./_imagens/renovador_pneu.png" />
+                </figure>
+
+
+                <!--outra página-->
+                <section id="promocoes">
+                    <h2>Promoções</h2>
+                    <iframe src="promocoes.html" name="janela" id="pagina"></iframe>
+                </section>
+            </article>
+        </section>
+        <footer id="rodape">
+            <p> <a href="https://www.google.com/maps/place/R.+Rio+Pomba,+1221+-+Carlos+Prates,+Belo+Horizonte+-+MG,+30720-290/@-19.9138791,-43.9794688,17z/data=!3m1!4b1!4m5!3m4!1s0xa69723e20463cd:0xcc6eeeeec5088704!8m2!3d-19.9138842!4d-43.9768939?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"> Rua Rio Pomba, 1221 Padre Eustáquio -
+                    Belo Horizonte - MG</a> </br> <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+                Valter Medeiros </br> <a href="https://www.mg.senac.br/DocsAreasComuns/Portfolio_Digital_cursos.pdf"
+                    target="_blank">
+                    Técnico em Informática</a> Programação</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>

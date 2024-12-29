@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneus</title>
+    <link rel="stylesheet" type="text/css" href="_css/pneus.css" />
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+<div id="interface">
+
+    <body>
+        <div id="Interface">
+            <header id="cabecalho">
+                <img src="_imagens/carros-login3.png" id="icone">
+
+                <!--MENUS-->
+                <nav id="menus">
+                    <ul>
+                        <li onmousemove="mudaFoto('_imagens/casa1.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="index.html">Início</a></li>
+                        <li onmousemove="mudaFoto('_imagens/pneu_vazado1.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="pneus.html">Pneus</a></li>
+                        <li onmousemove="mudaFoto('_imagens/roda_vazada1.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')">
+                            <a href="rodas.html">Rodas</a>
+                        </li>
+                        <li onmousemove="mudaFoto('_imagens/pecas_vazado1.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="produtosgerais.html">Produtos
+                                Gerais</a>
+                        </li>
+                        <li onmousemove="mudaFoto('_imagens/ajudasf1.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="contato.html">Contato</a>
+                        </li>
+                        <li onmousemove="mudaFoto('_imagens/promocao.png')"
+                            onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="comprar.html">Comprar</a></li>
+
+                    </ul>
+
+                    <div class="cadastro">
+                        <button class="usuario">
+                            <img src="./_imagens/boneco-login.png" onclick="abre()" />
+                        </button>
+                        <script>
+                            function abre() {
+                                window.location.href = 'cadastro.php';
+                            }
+
+                        </script>
+                    </div>
+                </nav>
+
+            </header>
+
+            <section id="principal">
+                <article id="titulos">
+                    <h1>Pneus</h1>
+                    <p>
+                        Todos os pneus são adquiridos de fornecedores especializados
+                        comprometidos com a produção sustentável, o que assegura a preservação dos ecossistemas e
+                        contribui para o bem-estar da humanidade.
+                        Nossa equipe se dedica com atenção ao monitoramento da qualidade e das condições dos pneus,
+                        garantindo que cada produto chegue aos nossos clientes em perfeito estado. A missão da
+                        <b>"AutoPeças 13"</b> é oferecer pneus de alta qualidade, aliados à conscientização sobre a
+                        importância da sustentabilidade no setor automotivo, com foco na redução de impactos ambientais
+                        para as gerações futuras.
+                    </p>
+                    <h2>Comprar Pneus</h2>
+                    <p>
+                        A <b>AutoPeças 13</b> se preocupa com a segurança e o bem-estar dos seus clientes, por isso, ao
+                        finalizar a compra, seu pedido passa por uma análise. Para adquirir nossos pneus, é necessário
+                        comprovar que possui os recursos e as condições para manter o veículo em perfeitas condições,
+                        garantindo sua segurança nas estradas.
+                    </p>
+                    <h2>Pneus HT</h2>
+                    <p>Os pneus <b>HT (Highway Terrain)</b> são projetados principalmente para uso em asfalto e estradas
+                        pavimentadas. São conhecidos como pneus "lisos" devido ao seu padrão de banda de rodagem mais
+                        simples e contínuo, o que oferece uma condução suave e silenciosa.</p>
+                    <figure id="tropgg">
+                        <img src="./_imagens/pneupirelli.jpg" width="350"/>
+                    </figure>
+
+                    <h2>Pneus MT</h2>
+                    <p>Os pneus <b>MT (Mud Terrain)</b> são projetados para enfrentar terrenos off-road, como estradas
+                        de chão, trilhas, barro e superfícies irregulares. Esses pneus possuem um padrão de banda de
+                        rodagem agressivo, com sulcos profundos e blocos de borracha espaçados, o que proporciona tração
+                        excepcional em terrenos difíceis.</p>
+                    <figure id="betta">
+                        <img src="./_imagens/pneu_MT.png" width="350">
+                    </figure>
+                    <!-- TABELA HT -->
+                    <table id="tabelapp">
+                        <caption>Tabela de Pneus <b>HT</b>
+                        <tr>
+                            <td class="ec">Marca</td>
+                            <td class="ec"> Origem</td>
+                            <td class="ec">Tamanho</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Michelin</td>
+                            <td>França</td>
+                            <td>215/65R16</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Pirelli</td>
+                            <td>Itália</td>
+                            <td>225/70R16
+                            </td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Bridgestone </td>
+                            <td>Japão</td>
+                            <td>205/60R15
+                            </td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Continental</td>
+                            <td>Alemanha</td>
+                            <td>235/75R16</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Goodyear</td>
+                            <td>EUA</td>
+                            <td>255/70R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Hankook</td>
+                            <td>Coreia do Sul</td>
+                            <td>265/70R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Dunlop</td>
+                            <td>EUA</td>
+                            <td>205/55R16</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Falken</td>
+                            <td>Japão</td>
+                            <td>245/65R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Toyo</td>
+                            <td>Japão</td>
+                            <td>235/65R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Cooper</td>
+                            <td>EUA</td>
+                            <td>255/60R17</td>
+                        </tr>
+                        </caption>
+                    </table>
+                    <h3><a href="https://blog.dellavia.com.br/mundo-sobre-rodas-aprenda-tudo-sobre-pneus/" target="_blank">Saiba mais</a></h3>                    
+
+                    <!-- TABELA MT -->
+                    <table id="tabelapp">
+                        <caption>Tabela de Pneus <b>MT</b>
+                        <tr>
+                            <td class="ec">Marca</td>
+                            <td class="ec"> Origem</td>
+                            <td class="ec">Tamanho</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>General Tire</td>
+                            <td>EUA</td>
+                            <td>31x10.50R15</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Dick Cepek</td>
+                            <td>EUA</td>
+                            <td>33x12.50R18</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Toyo</td>
+                            <td>Japão</td>
+                            <td> 265/75R16</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Nitto</td>
+                            <td>Japão</td>
+                            <td>37x12.50R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Cooper</td>
+                            <td>EUA</td>
+                            <td>275/65R18</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Bridgestone</td>
+                            <td>Japão</td>
+                            <td>265/70R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Goodyear</td>
+                            <td>EUA</td>
+                            <td>33x12.50R15</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>BFGoodrich</td>
+                            <td>EUA</td>
+                            <td>285/75R16</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Yokohama</td>
+                            <td>Japão</td>
+                            <td>265/70R17</td>
+                        </tr>
+                        <tr class="eb">
+                            <td>Maxxis</td>
+                            <td>Taiwan</td>
+                            <td>35x12.50R15</td>
+                        </tr>
+                        </caption>
+                    </table>
+                    <h2>Pneus AT</h2>
+                    <p>Os pneus <b>AT (All Terrain)</b> são projetados para oferecer um desempenho equilibrado em
+                        diversos tipos de terreno, tanto em asfalto quanto em estradas off-road. Com um padrão de banda
+                        de rodagem que <b>mistura elementos dos pneus HT e MT</b>, eles possuem sulcos mais pronunciados
+                        e blocos de borracha maiores, proporcionando boa tração em terrenos irregulares, como terra,
+                        cascalho e lama, sem comprometer o desempenho em estradas pavimentadas.</p>
+                    <figure id="tropp">
+                        <img src="_imagens/pneu_AT.jpg" width="350" />
+                    </figure>
+                    <h3><a href="https://mecanie.com.br/artigos/marcas-de-pneu/"
+                            target="_blank">Saiba mais</a></h3>
+
+                    <!-- a outra página -->
+                    <section id="promocoes">
+                        <h2>Promoções do dia</h2>
+                        <iframe src="promocoes.html" name="janela" id="pagina"></iframe>
+
+                    </section>
+                </article>
+            </section>
+            <footer id="rodape">
+                <p> <a href="https://www.google.com/maps/place/R.+Rio+Pomba,+1221+-+Carlos+Prates,+Belo+Horizonte+-+MG,+30720-290/@-19.9138791,-43.9794688,17z/data=!3m1!4b1!4m5!3m4!1s0xa69723e20463cd:0xcc6eeeeec5088704!8m2!3d-19.9138842!4d-43.9768939?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"> Rua Rio Pomba, 1221 Padre Eustáquio -
+                        Belo Horizonte - MG</a> </br> <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    | Valter Medeiros </br> <a
+                        href="https://www.mg.senac.br/DocsAreasComuns/Portfolio_Digital_cursos.pdf" target="_blank">
+                        Técnico em Informática</a> Programação</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
