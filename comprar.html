@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="stylesheet" type="text/css" href="_css/comprar.css" />
+    <script language="javascript" src="_javascript/compras.js"></script>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+
+<body>
+
+    <div id="Interface">
+        <header id="cabecalho">
+            <img src="_imagens/carros-login3.png" id="icone">
+
+            <!--MENUS-->
+            <nav id="menus">
+                <ul>
+                    <li onmousemove="mudaFoto('_imagens/casa1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="index.html">Início</a></li>
+                    <li onmousemove="mudaFoto('_imagens/pneu_vazado1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="pneus.html">Pneus</a></li>
+                    <li onmousemove="mudaFoto('_imagens/roda_vazada1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')">
+                        <a href="rodas.html">Rodas</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/pecas_vazado1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="produtosgerais.html">Produtos
+                            Gerais</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/ajudasf1.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="contato.html">Contato</a></li>
+                    <li onmousemove="mudaFoto('_imagens/promocao.png')"
+                        onmouseout="mudaFoto('_imagens/carros-login3.png')"><a href="comprar.html">Comprar</a></li>
+
+                </ul>
+
+                <div class="cadastro">
+                    <button class="usuario">
+                        <img src="./_imagens/boneco-login.png" onclick="abre()" />
+                    </button>
+                    <script>
+                        function abre() {
+                            window.location.href = 'cadastro.php';
+                        }
+
+                    </script>
+                </div>
+            </nav>
+
+        </header>
+        <section id="principal">
+            <article id="titulos">
+                <h1>Comprar</h1>
+                <p>A seguir, realize sua compra online na AutoPeças 13. Clique no botão referente ao item desejado e, em
+                    seguida, na imagem correspondente. Após a seleção, calcule o valor total dos produtos escolhidos.
+                </p>
+
+                <!--script de compra-->
+                <div class="opcoes">
+                    <!-- pneus -->
+                    <h2>Pneus</h2>
+                    Clique no botão:
+                    <!-- 1-1 -->
+                    <p class="compra"><input type="button" value="Continental" id="peca" onclick="imagem11()"></p>
+                    <img class="foto1-1" src="" onclick="mostra11()">
+                    <div class="msg1-1"></div>
+                    <div class="c1-1" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 1-2 -->
+                    <p class="compra"><input type="button" value="Pirelli" id="peca" onclick="imagem12()"></p>
+                    <img class="foto1-2" src="" onclick="mostra12()">
+                    <div class="msg1-2"></div>
+                    <div class="c1-2" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 1-3 -->
+                    <p class="compra"><input type="button" value="Goodyear" id="peca" onclick="imagem13()"></p>
+                    <img class="foto1-3" src="" onclick="mostra13()">
+                    <div class="msg1-3"></div>
+                    <div class="c1-3" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 1-4 -->
+                    <p class="compra"><input type="button" value="Bridgestone" id="peca" onclick="imagem14()"></p>
+                    <img class="foto1-4" src="" onclick="mostra14()">
+                    <div class="msg1-4"></div>
+                    <div class="c1-4" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 1-5 -->
+                    <p class="compra"><input type="button" value="Firestone" id="peca" onclick="imagem15()"></p>
+                    <img class="foto1-5" src="" onclick="mostra15()">
+                    <div class="msg1-5"> </div>
+                    <div class="c1-5" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- rodas -->
+                    <h2>Rodas</h2>
+                    Clique no botão:
+                    <!-- 2-1 -->
+                    <p class="compra"><input type="button" value="BBS" id="peca" onclick="imagem21()"></p>
+                    <img class="foto2-1" src="" onclick="mostra21()">
+                    <div class="msg2-1"> </div>
+                    <div class="c2-1" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 2-2 -->
+                    <p class="compra"><input type="button" value="OZ Racing" id="peca" onclick="imagem22()"></p>
+                    <img class="foto2-2" src="" onclick="mostra22()">
+                    <div class="msg2-2"> </div>
+                    <div class="c2-2" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 2-3 -->
+                    <p class="compra"><input type="button" value="HRE Wheels" id="peca" onclick="imagem23()"></p>
+                    <img class="foto2-3" src="" onclick="mostra23()">
+                    <div class="msg2-3"> </div>
+                    <div class="c2-3" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 2-4 -->
+                    <p class="compra"><input type="button" value="Rotiform" id="peca" onclick="imagem24()"></p>
+                    <img class="foto2-4" src="" onclick="mostra24()">
+                    <div class="msg2-4"> </div>
+                    <div class="c2-4" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 2-5 -->
+                    <p class="compra"><input type="button" value="Fuel Off-Road" id="peca" onclick="imagem25()"></p>
+                    <img class="foto2-5" src="" onclick="mostra25()">
+                    <div class="msg2-5"> </div>
+                    <div class="c2-5" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 2-6 -->
+                    <p class="compra"><input type="button" value="Mak Wheels" id="peca" onclick="imagem26()"></p>
+                    <img class="foto2-6" src="" onclick="mostra26()">
+                    <div class="msg2-6"> </div>
+                    <div class="c2-6" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!--Produtos Gerais-->
+                    <h2>Produtos Gerais</h2>
+                    Clique no botão:
+                    <!-- 3-1 -->
+                    <p class="compra"><input type="button" value="Polidor para Rodas" id="peca" onclick="imagem31()">
+                    </p>
+                    <img class="foto3-1" src="" onclick="mostra31()">
+                    <div class="msg3-1"> </div>
+                    <div class="c3-1" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 3-2 -->
+                    <p class="compra"><input type="button" value="Calotas" id="peca" onclick="imagem32()"></p>
+                    <img class="foto3-2" src="" onclick="mostra32()">
+                    <div class="msg3-2"> </div>
+                    <div class="c3-2" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 3-3 -->
+                    <p class="compra"><input type="button" value="Tampa Brilha" id="peca" onclick="imagem33()"></p>
+                    <img class="foto3-3" src="" onclick="mostra33()">
+                    <div class="msg3-3"> </div>
+                    <div class="c3-3" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 3-4 -->
+                    <p class="compra"><input type="button" value="Kit Reparo Pneus" id="peca" onclick="imagem34()">
+                    </p>
+                    <img class="foto3-4" src="" onclick="mostra34()">
+                    <div class="msg3-4"> </div>
+                    <div class="c3-4" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 3-5 -->
+                    <p class="compra"><input type="button" value="Friso para Rodas" id="peca" onclick="imagem35()">
+                    </p>
+                    <img class="foto3-5" src="" onclick="mostra35()">
+                    <div class="msg3-5"> </div>
+                    <div class="c3-5" id="verde">Clique na imagem para adicionar o produto</div>
+                    <!-- 3-6 -->
+                    <p class="compra"><input type="button" value="Limpa Pneus" id="peca" onclick="imagem36()"></p>
+                    <img class="foto3-6" src="" onclick="mostra36()">
+                    <div class="msg3-6"> </div>
+                    <div class="c3-6" id="verde">Clique na imagem para adicionar o produto</div>
+
+                    <!-- finalizar -->
+                    <p><input type="button" class="ver" value="Calcular valor total" onclick="calcula()"></p>
+                    <div class="itens"></div>
+                    <div class="desconto"></div>
+                    <p>R$<input id="cTot" type="text" placeholder="VALOR TOTAL" readonly></p>
+                    <p><input type="button" class="manda" value="Forma de pagamento" ->></p>
+                </div>
+
+                <!--outra página-->
+                <section id="promocoes">
+                    <h2>Promoções do dia</h2>
+                    <iframe src="promocoes.html" name="janela" id="pagina"></iframe>
+                </section>
+            </article>
+        </section>
+        <footer id="rodape">
+            <p> <a href="https://www.google.com/maps/place/R.+Rio+Pomba,+1221+-+Carlos+Prates,+Belo+Horizonte+-+MG,+30720-290/@-19.9138791,-43.9794688,17z/data=!3m1!4b1!4m5!3m4!1s0xa69723e20463cd:0xcc6eeeeec5088704!8m2!3d-19.9138842!4d-43.9768939?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"> Rua Rio Pomba, 1221 Padre Eustáquio -
+                    Belo Horizonte - MG</a> </br> <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+                Valter Medeiros</br> <a href="https://www.mg.senac.br/DocsAreasComuns/Portfolio_Digital_cursos.pdf"
+                    target="_blank">
+                    Técnico em Informática</a> Programação</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
