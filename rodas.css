@@ -1,0 +1,326 @@
+/*fonte Barlow, Gloria Hallelujah  e Yanone Kaffeesatz*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Gloria+Hallelujah&family=Oswald&family=Yanone+Kaffeesatz&display=swap');
+
+/* Cor da página */
+body {
+    color: rgb(16, 16, 80);
+    background-color: #525250;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+}
+
+/* LARGURA DO TEXTO NA PÁGINA */
+div#Interface {
+    width: 1000px;
+    /*largura da página central*/
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px 10px 10px 10px;
+}
+
+/*CABEÇALHO*/
+header#cabecalho {
+    border-bottom: 4px #BB9469 ridge;
+    /*grossuro, cor e tipo*/
+    height: 100px;
+    background: url("../_imagens/carro_logo1.png") no-repeat 250px -80px;
+    background-size: 500px 250px;
+}
+
+/*POSIÇÃO DA IMAGEM do cabecalho (carro)*/
+header#cabecalho img#icone {
+    position: relative;
+    left: 100px;
+    top: 70px;
+    width: 200px;
+}
+
+/* Formatação dos títulos*/
+h2 {
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Barlow;
+    font-size: 50pt;
+}
+
+h3 {
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+/* Borda da página */
+figure.imagens-borda {
+    border: 8px ridge #BB9469;
+    box-shadow: 1px 1px 20px black;
+}
+
+figure.imagens-borda img {
+    width: 50%;
+    height: 100%;
+}
+
+/*MENUS*/
+nav#menus {
+    display: block;
+}
+
+nav#menus a {
+    color: #BB9469;
+    text-decoration: none;
+    /*tira o sublinhado*/
+}
+
+nav#menus li {
+    display: block;
+    background-color: rgb(16, 16, 80);
+    padding: 10px;
+    margin: 4px;
+    box-shadow: 0px 0px 4px black;
+    transition: background-color 1s;
+    /*coloca transição*/
+    text-align: center;
+}
+
+nav#menus ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+nav#menus li:hover {
+    background-color: #fce490;
+    text-decoration: none;
+}
+
+/*CONFIGURANDO SEPARAÇÕES*/
+/*lateral*/
+
+/*principal*/
+section#principal {
+    display: block;
+    width: -1px;
+    float: left;
+    padding-right: 15px;
+}
+
+/*rodape da página*/
+footer#rodape {
+    clear: both;
+    border-top: 4px ridge #BB9469;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/*formatação de Links (principalmente do rodapé)*/
+a {
+    text-align: center;
+    color: #BB9469;
+    text-decoration: none;
+    /*tira o sublinhado*/
+}
+
+a:hover {
+    text-decoration: underline;
+    /*tira o sublinhado*/
+}
+
+/*formatação de títulos importantes*/
+article#titulos h2 {
+    color: #BB9469;
+    font-size: 30pt;
+    background-color: rgb(16, 16, 80);
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+/*ESTILO DO IFRAME DAS PROMOÇOES*/
+section#promocoes {
+    width: 570px;
+    margin: auto;
+}
+
+iframe#pagina {
+    width: 580px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+/* barra de rolagem */
+iframe#pagina::-webkit-scrollbar {
+    display: none;
+}
+
+/*ALBUM DE FOTOS*/
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    /*tira os pontinhos da lista*/
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 5px ridge #BB9469;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in;
+}
+
+/*colocando as fotos*/
+ul#album-fotos li#foto01 {
+    background: url('../_imagens/roda_aco.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02 {
+    background: url('../_imagens/roda_ligaleve.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../_imagens/rodas_forjadas.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto04 {
+    background: url('../_imagens/rodas_fundidas.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto05 {
+    background: url('../_imagens/rodas_desempenho.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto06 {
+    background: url('../_imagens/rodas_personalizadas.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+/*configurando texto*/
+ul#album-fotos li span {
+    opacity: 1;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 12pt;
+    line-height: 30px;
+    /*posição do texto*/
+    padding: 5px;
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+
+/*configurando como ficará com zoom*/
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*escala do zomm*/
+ul#album-fotos li:hover {
+    transform: scale(1.5);
+}
+
+/*VIDEO NA FOTO*/
+div#comfoto {
+    width: 900px;
+    height: 180px;
+    margin: auto;
+    background: url("/_imagens/mar.jpg") no-repeat;
+}
+
+/*posição da imagem*/
+video#video {
+    display: block;
+    position: relative;
+    left: 180px;
+    top: 90px;
+    width: 500px;
+}
+
+/*POSIÇAO VÍDEO*/
+iframe#video {
+    display: block;
+    position: relative;
+    left: 110px;
+    top: -120px;
+    width: 800px;
+}
+
+/*IMAGENS*/
+figure#cosntru {
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.usuario {
+    position: relative;
+    left: 1100px;
+    top: -200px;
+}
