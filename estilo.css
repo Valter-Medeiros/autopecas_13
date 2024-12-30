@@ -24,7 +24,7 @@ header#cabecalho {
     border-bottom: 4px #BB9469 ridge;
     /*grossura, cor e tipo*/
     height: 100px;
-    background: url("../_imagens/carro_logo1.png") no-repeat 250px -80px;
+    background: url("carro_logo1.png") no-repeat 250px -80px;
     background-size: 500px 250px;    
 }
 
