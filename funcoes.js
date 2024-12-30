@@ -2,13 +2,13 @@
 function variomarca(tipo) {
     let arquivo;
     if (tipo == 1) {
-        arquivo = "_imagens/pneus-continental.png";
+        arquivo = "pneus-continental.png";
     }
     if (tipo == 2) {
-        arquivo = "_imagens/rodas_logo.png";
+        arquivo = "rodas_logo.png";
     }
     if (tipo == 4) {
-        arquivo = "_imagens/roda_lilas.png"
+        arquivo = "roda_lilas.png"
     }
     document.getElementById("colorido").src = arquivo;
 }
@@ -56,26 +56,26 @@ function tipodeAjuda() {
 //MOSTRA IMAGEM DO PRODUTO GERAL NO INÍCIO 
 function valvula() {
     var rac = window.document.querySelector('.pg-img')
-    rac.src = './_imagens/valvula1.png'
+    rac.src = 'valvula1.png'
 }
 function tampa() {
     var ver = window.document.querySelector('.pg-img')
-    ver.src = './_imagens/tampa_brilha1.png'
+    ver.src = 'tampa_brilha1.png'
 }
 function reparo() {
     var imu = window.document.querySelector('.pg-img')
-    imu.src = './_imagens/Kit_Reparo.png'
+    imu.src = 'Kit_Reparo.png'
 }
 // rodas
 function calota() {
     var bom = window.document.querySelector('.pg-img')
-    bom.src = './_imagens/calotas1.png'
+    bom.src = 'calotas1.png'
 }
 function friso() {
     var enfeite = window.document.querySelector('.pg-img')
-    enfeite.src = './_imagens/friso_rodas1.png'
+    enfeite.src = 'friso_rodas1.png'
 }
 function quatroluzes() {
     var lim = window.document.querySelector('.pg-img')
-    lim.src = './_imagens/quatro_luzes.png'
+    lim.src = 'quatro_luzes.png'
 }
